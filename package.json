@@ -1,13 +1,10 @@
 {
-  "name": "AndroidFirebaseAuth",
-  "version": "0.0.1",
+  "name": "HopStairProject",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint ."
+    "np": "np --no-publish --any-branch",
+    "postversion": "react-native-version"
   },
   "dependencies": {
     "@react-navigation/native": "^6.0.13",
@@ -32,12 +29,6 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "name": "HopStairProject",
-  "version": "0.0.1",
-  "scripts": {
-    "np": "np --no-publish --any-branch",
-    "postversion": "react-native-version"
   },
   "repository": {
     "type": "git",

@@ -36,7 +36,7 @@
   "name": "HopStairProject",
   "version": "0.0.1",
   "scripts": {
-    "np": "np --no-publish",
+    "np": "np --no-publish --any-branch",
     "postversion": "react-native-version"
   },
   "repository": {

@@ -2,8 +2,12 @@ import { useNavigation } from '@react-navigation/core'
 import React, { useEffect, useState } from 'react'
 import { KeyboardAvoidingView, StyleSheet, Text, TextInput, TouchableOpacity, View, Image } from 'react-native'
 import { auth } from '../firebase'
+import SplashScreen from 'react-native-splash-screen'
 
 const LoginScreen = () => {
+
+  SplashScreen.hide();
+
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
@@ -111,6 +115,7 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     borderRadius: 10,
     marginTop: 5,
+    color: 'black'
   },
   buttonContainer: {
     width: '60%',
